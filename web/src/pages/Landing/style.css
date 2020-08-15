@@ -1,0 +1,57 @@
+#main-container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 10rem;
+    width: 80%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background-lighter);
+    border-radius: 4rem;
+}
+
+.logo p{
+  
+    font: 400 2.6rem Poppins;
+    font-size: 10rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.buttons button{
+    color: var(--color-text);
+    border: none;
+    height: 10rem;
+    margin-top:3rem;
+    border-radius: 2rem;
+    transition: background 0.2s;
+
+}
+
+.buttons .primary-button{
+    background-color: var(--color-red);
+    font: 400 2.6rem Poppins;
+    font-size: 5rem;
+}
+.buttons .secondary-button{
+    background-color: var(--color-yellow);
+    font: 400 2.6rem Poppins;
+    font-size: 2rem;
+}
+.buttons .primary-button:hover{
+    background-color: var(--color-red-lighter);
+}
+.buttons .secondary-button:hover{
+    background-color: var(--color-yellow-lighter);
+}
