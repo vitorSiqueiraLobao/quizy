@@ -1,0 +1,71 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero{
+    
+    margin: 5rem 0;
+    width: 20rem;
+    height: 8rem;
+    background: var(--color-green);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 2.2rem;
+}
+
+.hero p{
+    margin: 5rem;
+    cursor: pointer;
+}
+
+.hero a{
+    color: var(--color-text);
+    text-decoration: none;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-block{
+    display: flex;
+    width: 80%;
+    height: 5rem;
+    background: white;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-block input[type=text]{
+    border: none;
+    height: 100%;
+    width: 80%;
+    border-radius: 3rem;
+    padding: 15px;
+    color: black;
+}
+.input-block select{
+    border: none;
+    height: 100%;
+    width: 80%;
+    border-radius: 3rem;
+    padding: 15px;
+    color: black;
+}
+.input-block label{
+    color: black;
+}
+.input-block + .input-block{
+    margin-top: 2rem;
+}
+.input-block + .input-block:last-child{
+    margin-top: 2rem;
+}

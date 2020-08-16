@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 function Landing(){
     return(
@@ -8,8 +9,8 @@ function Landing(){
                 <p>Quizy</p>
             </div>
             <div className="buttons">
-                <button className="primary-button">Play</button>
-                <button className="secondary-button">Create new Quizy</button>
+                <button className="primary-button"><Link to="/">Play</Link></button>
+                <button className="secondary-button"><Link to="create"> Create new Quizy</Link></button>
             </div>
         </div>
     )
