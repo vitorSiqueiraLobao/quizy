@@ -56,6 +56,10 @@
 .buttons .secondary-button:hover{
     background-color: var(--color-yellow-lighter);
 }
+.buttons a{
+    text-decoration: none;
+    color: var(--color-text);
+}
 
 @media(min-width:900px){
     #main-container{
