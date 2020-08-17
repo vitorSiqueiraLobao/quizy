@@ -3,6 +3,7 @@ import {BrowserRouter, Route} from 'react-router-dom'
 import Landing from './pages/Landing'
 import CreateQuizy from './pages/CreateQuizy'
 import Play from './pages/Play'
+import Results from './pages/Results'
 
 
 function Routes(){
@@ -11,6 +12,7 @@ function Routes(){
             <Route path="/" exact component={Landing}/>
             <Route path='/create' component={CreateQuizy}/>
             <Route path='/play' component={Play}/>
+            <Route path='/results' component={Results}/>
         </BrowserRouter>
     )
 }

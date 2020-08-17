@@ -1,0 +1,22 @@
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-background-lighter);
+    width: 60%;
+    height: 40%;
+    border-radius: 4rem;
+}
+
+
+#main .header{
+    font: 400 1.6rem Archivo;
+    font-size: 8rem;
+}
+
+#main .total{
+    font: 400 1.6rem Archivo;
+    font-size: 3rem;
+    color: var(--color-yellow);
+}
