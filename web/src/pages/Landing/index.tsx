@@ -9,8 +9,8 @@ function Landing(){
                 <p>Quizy</p>
             </div>
             <div className="buttons">
-                <button className="primary-button"><Link to="/">Play</Link></button>
-                <button className="secondary-button"><Link to="create"> Create new Quizy</Link></button>
+                <button className="primary-button"><Link to="/play">Play</Link></button>
+                <button className="secondary-button"><Link to="/create"> Create new Quizy</Link></button>
             </div>
         </div>
     )
